@@ -1,0 +1,51 @@
+
+.toolbar {
+         position:fixed;
+         left:0;
+         top:0;
+         height:100%;
+         width:0;
+         background:#000;
+         z-index:99999;
+         -webkit-transition:left 0.5s, width 0.5s;
+         -moz-transition:left 0.5s, width 0.5s;
+         transition:left 0.5s, width 0.5s
+        }
+.toolbar *{-webkit-box-sizing:border-box}
+.toolbar.init:before {
+         position:absolute;
+         display:block;
+         content:"";
+         right:-142px;
+         top:218px;
+         width:129px;
+         height:70px;
+         background:url('/wp-content/themes/nikolaydyankovdesign/img/toolbar/play.png')
+        }
+.toolbar #panels-wrap{position:absolute;width:300px;right:0;top:0;color:white}
+.toolbar .button {
+         position:absolute;
+         right:-36px;
+         top:300px;
+         width:36px;
+         height:36px;
+         background:#666 url('/wp-content/themes/nikolaydyankovdesign/img/toolbar/settings.png') no-repeat;
+         background-position:6px 6px;
+         border-radius:0 4px 4px 0;
+         cursor:pointer
+        }
+.toolbar>#video.button{top:341px;background-image:url('/wp-content/themes/nikolaydyankovdesign/img/toolbar/video.png');background-position:6px 6px}
+.toolbar>.button.active{background-color:#000 !important}
+.toolbar .panel{display:none;padding:30px}
+.toolbar h1{font:24px/36px helvetica, tahoma, sans-serif;font-weight:100;margin-bottom:20px}
+.toolbar h2{font:16px/24px helvetica, tahoma, sans-serif;font-weight:100;margin-bottom:20px}
+.toolbar table{width:100%}
+.toolbar table tr, 
+.toolbar table td{height:32px;vertical-align:middle;margin:0;padding:0}
+.toolbar input[type="text"], 
+.toolbar textarea{border-radius:0;display:block;border:1px solid black;background:white;height:24px;outline:none;width:100%;margin:0}
+.toolbar textarea{height:100px}
+.toolbar label{display:inline-block}
+.toolbar input[type="button"]{position:relative;background:#ec3420;display:block;height:20px;line-height:20px;text-align:center;min-width:100px;border:none;outline:none;color:white;cursor:pointer;padding:0;margin:0;z-index:2}.toolbar input[type="button"]:active{padding:1px 0 0 1px}
+.toolbar #refresh{width:100%;height:36px;font-weight:100;font-size:16px;margin-top:20px}
+.toolbar #refresh:active{padding:2px 0 0 2px}.slider{display:block;position:relative;background:white;height:1px;margin:0 8px 10px 8px}
