@@ -46,6 +46,29 @@
 .toolbar textarea{border-radius:0;display:block;border:1px solid black;background:white;height:24px;outline:none;width:100%;margin:0}
 .toolbar textarea{height:100px}
 .toolbar label{display:inline-block}
-.toolbar input[type="button"]{position:relative;background:#ec3420;display:block;height:20px;line-height:20px;text-align:center;min-width:100px;border:none;outline:none;color:white;cursor:pointer;padding:0;margin:0;z-index:2}.toolbar input[type="button"]:active{padding:1px 0 0 1px}
+.toolbar input[type="button"] {
+         position:relative;
+         background:#ec3420;
+         display:block;
+         height:20px;
+         line-height:20px;
+         text-align:center;
+         min-width:100px;
+         border:none;
+         outline:none;
+         color:white;
+         cursor:pointer;
+         padding:0;
+         margin:0;
+         z-index:2
+        }
+.toolbar input[type="button"]:active{padding:1px 0 0 1px}
 .toolbar #refresh{width:100%;height:36px;font-weight:100;font-size:16px;margin-top:20px}
 .toolbar #refresh:active{padding:2px 0 0 2px}.slider{display:block;position:relative;background:white;height:1px;margin:0 8px 10px 8px}
+
+
+
+
+
+
+
